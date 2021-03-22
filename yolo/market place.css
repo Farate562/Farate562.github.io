@@ -1,0 +1,155 @@
+*{
+    margin 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	width: 90%;
+	height: 10vh;
+	margin: auto;
+	align-items: center;
+}
+
+.logo-container,
+.nav-links,
+.cart {
+	display: flex;
+}
+
+.logo-container {
+	flex: 1;
+}
+.logo {
+	font-weight: 400;
+	margin: 5px;
+}
+nav {
+	flex: 2;
+}
+.nav-links {
+	justify-content: space-around;
+	list-style: none;
+}
+.nav-link {
+	color: #5f5f79;
+	font-size: 18px;
+	text-decoration: none;
+}
+.cart {
+	flex: 1;
+	justify-content: flex-end;
+}
+
+.row{
+    margin-top: 70px;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.small-container {
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.col3 {
+    flex-basis: 25px;
+    padding: 10px;
+    min-width: 200px;
+    margin-bottom: 50px;
+}
+
+.col3 img {
+    width: 200px;
+    height: 200px;
+}
+
+.title {
+    text-align: center;
+    margin: 0 auto 80px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+}
+
+.title::after {
+    content: "";
+    background: #ff523b;
+    width: 80px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+h4{
+    color: #555;
+    font-weight: normal;
+}
+
+.col3 p {
+    font-size: 14px;
+}
+
+.col3:hover {
+    transform: translateY(-5px);
+}
+
+.button {
+    background-color: #555;
+    border: none;
+    color: white;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 0;
+    display:block;
+    }
+
+    .button {
+    transition-duration: 0.4s;
+    }
+
+    .button:hover {
+    background-color: skyblue; 
+    color: white;
+    }
+
+    .brands{
+        margin: 100px auto;
+    }
+
+    .col5 {
+        width: 160px;
+    }
+
+    .col5 img {
+        width: 100%;
+        cursor: pointer;
+        filter: grayscale(100%);
+    }
+
+    .col5 img:hover {
+        filter: grayscale(0);
+    }
+
+    .footer {
+        background: #000;
+        color: #8a8a8a;
+        font-size: 20px;
+        padding: 10px 0 10px;
+    }
+
+    .footer p {
+        color: #8a8a8a;
+    }
+

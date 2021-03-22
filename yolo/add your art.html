@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css" />
+    <title>Submit art</title>
+    <style type="text/css">
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        body {
+            background-image:url(./img/art4.jpg);
+            background-position: center;
+            background-size: cover;
+            font-family: sans-serif;
+            margin-top: 40px;
+        }
+
+
+        .sub {
+            width: 800px;
+            background-color: rgb(0,0,0.6);
+            margin: auto;
+            color: #ffffff;
+            padding: 10px 0px 10px 0px;
+            text-align: center;
+            border-radius: 15px 15px 0px 0px;
+        }
+
+        .main {
+            background-color: rgb(0,0,0,0.5);
+            width: 800px;
+            margin: auto;
+        }
+        form {
+            padding: 10px;
+        }
+    
+        .name { 
+            margin-left: 25px;
+            margin-top: 30px;
+            width: 125px;
+            color: white;
+            font-size: 18px;
+            font-weight: 700;
+            justify-content: center;
+        }
+
+        .firstname {
+            position: relative;
+            left: 200px;
+            top: -37px;
+            line-height: 40px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+        }
+
+        .lastname {
+            position: relative;
+            left: 417px;
+            top: -80px;
+            line-height: 40px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        .firstlabel {
+            align-content: left;
+            position: relative;
+            color: #E5E5E5;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 203px;
+            top: -45px;
+        }
+
+        .lastlabel {
+            position: relative;
+            color: #E5E5E5;
+            text-transform: capitalize;
+            font-size: 14px;
+            left: 492px;
+            top: -75px;
+        }
+
+        .email {
+            position: relative;
+            left: 200px;
+            top: -37px;
+            line-height: 40px;
+            width: 480px;
+            border-radius: 6px;
+            padding: 0 22px;
+            font-size: 16px;
+            color: #555;
+        }
+
+        input[type="radio"] {
+        margin-top: -1px;
+        vertical-align: middle;
+        }
+
+
+        textarea {
+        width: 300px;
+        height: 150px;
+        }
+
+        textarea{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        }
+        
+        .button {
+        background-color: #555;
+        border: none;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin:0 auto;
+        display:block;
+        }
+
+        .button {
+        transition-duration: 0.4s;
+        }
+
+        .button:hover {
+        background-color: skyblue; 
+        color: white;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <header>
+        <div class="logo-container">
+            <img src="./img/logo.svg" alt="logo" />
+            <h4 class="logo">Galeria.pt</h4>
+        </div>
+        <nav>
+            <ul class="nav-links">
+                <li><a class="nav-link" href="./Site.html">Home</a></li>
+                <li><a class="nav-link" href="./add your art.html">Add Your Art</a></li>
+                <li><a class="nav-link" href="./marketplace.html">Market Place</a></li>
+                <li><a class="nav-link" href="./aboutus.html">About Us</a></li>
+            </ul>
+        </nav>
+        <div class="cart">
+            <img src="./img/cart.svg" alt="cart" />
+        </div>
+    </header>
+    <div class="sub"><h1>Here you will be able to submit your art</h1></div>
+    <div class="main">
+        <form>
+            <div>
+                <h2 class="name">Name</h2><br><br>
+                <label class="firstlabel"></label>
+                <input class="firstname" type="text" name="First name">
+                <br><br>
+                
+                
+            </div>
+
+            <h2 class="name">Email</h2>
+            <input class="email" type="text" name="email"><br><br>
+
+                <p>
+                <input type="radio" name="name" value="option 1" > I understand and have read the terms and conditions <br><br>
+                </p>
+            
+                <input type="file"><br>Add your art<br><br>
+            
+            <textarea name="price, comment/description" placeholder="State your price, description and or comment"></textarea>
+
+            <button class="button" type="button">Submit</button>
+        </form>
+    </div>
+    
+</body>
+</html>
